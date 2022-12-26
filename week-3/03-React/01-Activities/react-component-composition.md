@@ -2,13 +2,12 @@
 
 In React, we can make components more generic by accepting `props`, which are to React components what parameters are to functions.
 
-Component composition is the name for **********************************\*\*\*\***********************************passing components as props to other components,**********************************\*\*\*\*********************************** thus creating new components with other components.
+Component composition is the name for ******\*\*\*\*******\*\*******\*\*\*\*******\*\*\*\*******\*\*\*\*******\*\*******\*\*\*\*******passing components as props to other components,******\*\*\*\*******\*\*******\*\*\*\*******\*\*\*\*******\*\*\*\*******\*\*******\*\*\*\******* thus creating new components with other components.
 
 ### How can composition help performance?
 
 Composition is also a great ally if you try to reduce the number of re-renders in your application.
-
-[https://lucid.app/lucidchart/e1f1cf0d-af5f-4adc-9a02-c82a673550e5/edit?viewport_loc=313%2C55%2C939%2C1107%2C-V_hJxkKSEro&invitationId=inv_baba496a-8da6-4eaf-8d7f-d7350381531e](https://lucid.app/lucidchart/e1f1cf0d-af5f-4adc-9a02-c82a673550e5/edit?viewport_loc=313%2C55%2C939%2C1107%2C-V_hJxkKSEro&invitationId=inv_baba496a-8da6-4eaf-8d7f-d7350381531e)
+![Employee Component Composition](/week-3/03-React/01-Activities/employee-component-flow-chart.png)
 
 ```jsx
 <App/>
