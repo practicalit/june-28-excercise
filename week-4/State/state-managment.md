@@ -2,7 +2,7 @@
 
 Is a general concept in software engineering. It is used when a part of your app needs to "remember" something that changes when people interact with it.
 
-![State](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/31b5b0ed-9910-4fbd-8dc6-2a916eb2a730/Untitled.png)
+![State](/week-4/State/state.png)
 
 This is a simple example, but if we had lots of bits of state, then we can make very complex apps.
 
