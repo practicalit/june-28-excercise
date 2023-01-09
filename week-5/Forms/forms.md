@@ -34,7 +34,7 @@ We're controlling the `value` of the input by using the value from the `emplo
 
 It is done using the `onChange` attribute and the `handleChange` function which is called every time the input value changes (typically when a new character is added or removed).
 
-If we didn't call `setEmployee` in the `handleChange` function, then the input's value would never change and it would appear as if you couldn't type in the input! Finally, the value we keep in the `reminder` state is displayed on the screen as today's reminder.
+If we didn't call `setEmployee` in the `handleChange` function, then the input's value would never change and it would appear as if you couldn't type in the input! Finally, the value we keep in the `employee` state is displayed on the screen as employee.
 
 In addition, instead of just saving the value of the input in the state, we could have also transformed the string before we set it with `setEmployee`, for example by calling `toUpperCase()` on the string.
 
