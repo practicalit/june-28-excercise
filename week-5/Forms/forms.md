@@ -24,7 +24,7 @@ function SimpleReminder() {
         value={employee}
         onChange={handleChange}
       />
-      <p>Today I need to remember to... {reminder}</p>
+      <p>Today I need to remember to... {employee}</p>
     </form>
   );
 }
