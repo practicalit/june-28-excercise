@@ -52,15 +52,15 @@ In addition, instead of just saving the value of the input in the state, we coul
 </form>
 ```
 
-1. Render the `Form` component inside the `App` above the `Wrapper` component
-2. Inside the `Form` component create two states called `name` and `occupation`
-3. Create these two components called `handleName` and `handleOccupation`
+5. Render the `Form` component inside the `App` above the `Wrapper` component
+6. Inside the `Form` component create two states called `name` and `occupation`
+7. Create these two handler function called `handleName` and `handleOccupation`
 
 and pass these functions to the `onChange` event handler in their corresponding `input` elements
 
-1. Pass the parameter named `event` in each handler functions
-2. Add a `console.log` to inspect the value of `event.target.value` . What happens when you type in the input?
-3. Using `setName` and `setOccupation` , update the `name` and `occupation` states to what was typed in the input box.
+8. Pass the parameter named `event` in each handler functions
+9. Add a `console.log` to inspect the value of `event.target.value` . What happens when you type in the input?
+10. Using `setName` and `setOccupation` , update the `name` and `occupation` states to what was typed in the input box.
 
 ### Form submission
 
